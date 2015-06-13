@@ -1,0 +1,11 @@
+body {
+	
+    background-image:url("fhsr_cover.jpg");
+ 	background-repeat: no-repeat;
+    background-size: cover;
+    width: 0px auto;
+}
+h1 {
+	color: #ffffff;
+	text-align: center;
+}
