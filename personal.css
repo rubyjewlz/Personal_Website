@@ -1,11 +1,75 @@
+#header {
+	width: auto;
+	height: 75px;
+	background-color: #000000;
+	border: #000000;
+	color: #000000;
+}
 body {
-	
-    background-image:url("fhsr_cover.jpg");
- 	background-repeat: no-repeat;
-    background-size: cover;
-    width: 0px auto;
+    background-color: #CCCCCC;
+    font-family: Verdana;
+    margin: 0px auto;
+    text-decoration: none;
+    border: #000000;
 }
 h1 {
 	color: #ffffff;
-	text-align: center;
+	text-align: left;
+}
+li {
+	display: inline;
+	color: #ffffff;
+	float: right;
+	padding: 25px;
+	text-decoration: none;
+}
+.saw {
+	width: 50%;
+	float: left;
+}
+.phone {
+	width: 25%;
+	float: left;
+}
+.computer {
+	width: 30%;
+}
+ul {
+	margin: 0px auto;
+	float: right;
+}
+#name {
+	float: left;
+	color: #ffffff;
+	padding-left: 10px;
+}
+/* unvisited link */
+a:link {
+    color: #ffffff;
+}
+
+/* visited link */
+a:visited {
+    color: #3399FF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #33CCFF;
+}
+
+/* selected link */
+a:active {
+    color: #ffffff;
+}
+a {
+	text-decoration: none;
+}
+p {
+	line-height: 35px;
+	padding: 10px;
+}
+.nav {
+	position: fixed;
+	left: 600px;
 }
