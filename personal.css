@@ -6,7 +6,8 @@
 	color: #000000;
 }
 body {
-    background-color: #CCCCCC;
+	width: auto;
+    background-color: #CCCCCC; 
     font-family: Verdana;
     margin: 0px auto;
     text-decoration: none;
@@ -33,6 +34,7 @@ li {
 }
 .computer {
 	width: 30%;
+	float: left;
 }
 ul {
 	margin: 0px auto;
@@ -66,10 +68,10 @@ a {
 	text-decoration: none;
 }
 p {
+	width: 400px;
 	line-height: 35px;
-	padding: 10px;
-}
-.nav {
-	position: fixed;
-	left: 600px;
+	padding: 10px;	
+	display: inline-block;
+	text-align: left;
+
 }
