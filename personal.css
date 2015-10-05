@@ -73,13 +73,17 @@ p {
 	padding: 10px;	
 	display: inline-block;
 	text-align: left;
+/*	z-index: 1;*/
 
 }
 footer {
 	margin: auto none 0px;
 	height: 40px;
 	background-color: #336699;
-	position:absolute;
   bottom:0;
   width:100%;
+    position: fixed;
+    color: white;
+    text-align: center;
+    font-size: 20pt;
 }
