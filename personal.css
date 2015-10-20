@@ -18,6 +18,7 @@ h1 {
 	text-align: left;
 	font-family: 'Permanent Marker', cursive;
 	margin-top: 0px;
+	margin-left: 20px;
 	font-size: 40px;
 	width: 500px;
 	display: inline-block;
@@ -108,7 +109,52 @@ footer {
 	margin: auto;
 }*/
 img {
-	display: block;
-	margin: auto;
-	width: 70%;
+	position: absolute;
+	/*margin: auto;*/
+	width: 25%;
+}
+
+#gallery {
+	width: 800px;
+	/*position: absolute;*/
+	margin: 0 auto;
+	/*z-index: -1;*/
+}
+#phone {
+width:100px;
+/*margin-left: 1000px;
+margin-top: 500px;*/
+}
+#saw {
+width:600px;
+/*margin-top: 100px;*/
+}
+#computer {
+width:400px;
+/*margin-top: 275px;
+margin-left: 650px;*/
+/*z-index: 1;*/
+}
+#tablet {
+width:300px;
+/*margin-top: 550px;
+margin-left: 550px;*/
+}
+#sketchbook {
+width:300px;
+/*margin-left: 250;
+margin-top: 450px;*/
+}
+#bulletin {
+width:400px;
+/*margin-left: 600px;
+margin-top: 100px;*/
+}
+#container {
+	width: 800px;
+	height: 800px;
+	margin: 0px;
+}
+div {
+	display: inline-block;
 }
